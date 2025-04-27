@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #1DB954; /* Spotify Grün */
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    background-color: #1DB954;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #17a44c;
+}
+
+ul#tracksList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#tracksList li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #282828;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul#tracksList li:hover {
+    background-color: #333333;
+}
+
+pre#lyrics {
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
